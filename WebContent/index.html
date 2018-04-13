@@ -86,6 +86,7 @@ $(function(){
  });
 });
 
+
 function sendFile(file) {  
     data = new FormData();  
     data.append("file", file);  
@@ -102,6 +103,7 @@ function sendFile(file) {
               $(".summernote").summernote('insertImage', "http://localhost:8080/test/picute/jpg.jpg", 'image name'); // the insertImage API  
         }  
     });  
+    
 }  
 
 function submit(){
